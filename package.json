@@ -1,7 +1,7 @@
 {
   "name": "starter_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight react starter project with parcel, prettier and eslint configuration files",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
@@ -10,8 +10,15 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+      "react",
+      "parcel",
+      "prettier",
+      "eslint",
+      "a11y",
+      "starter-project"
+  ],
+  "author": "Gwenaël Magnenat",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
